@@ -1,0 +1,57 @@
+Domain DominioProveerInformacionDeBienesComerciales {
+  domainVisionStatement = "Ser la principal fuente confiable y completa de informacion inmobiliatia comercian, inspirando a la confianza del mercado al proporcionar datos precisos y perspicaces, y liderando la evolución hacia un ecosistema inmobiliario mas informado y existoso"
+
+  Subdomain CaptacionDeInformacionCompanias {
+    type = GENERIC_SUBDOMAIN
+  }
+
+  Subdomain CaptacionDeInformacionContractual {
+    type = GENERIC_SUBDOMAIN
+  }
+
+  Subdomain CaptacionDeInformacionGeografica {
+    type = GENERIC_SUBDOMAIN
+  }
+
+  Subdomain CaptacionDeInformacionCatastral {
+    type = GENERIC_SUBDOMAIN
+  }
+
+  Subdomain RecoleccionEnListaDeMercados {
+    type = GENERIC_SUBDOMAIN
+  }
+
+  Subdomain InformacionDesdeCRM {
+    type = GENERIC_SUBDOMAIN
+  }
+
+  Subdomain InformacionVerbal {
+    type = GENERIC_SUBDOMAIN
+  }
+
+  Subdomain AnalisisHistorialVentas {
+    type = GENERIC_SUBDOMAIN
+  }
+
+  Subdomain ControlDeCalidad {
+    type = SUPPORTING_DOMAIN
+  }
+  
+  Subdomain AprobacionDeInformacionManual {
+    type = SUPPORTING_DOMAIN
+  }
+
+  Subdomain RecoleccionInspeccionFisica {
+    type = CORE_DOMAIN
+  }
+  Subdomain ProcesamientoInformacion {
+    type = CORE_DOMAIN
+  }
+  Subdomain BotsDeTransformacionDeInformacion {
+    type = CORE_DOMAIN
+  }
+  Subdomain AnalisisDeInmuebles {
+    type = CORE_DOMAIN
+  }
+
+}
