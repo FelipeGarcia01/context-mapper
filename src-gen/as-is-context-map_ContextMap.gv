@@ -1,0 +1,23 @@
+digraph "ContextMapGraph" {
+graph ["imagepath"="/tmp/GraphvizJava"]
+"ContextoAnalitica" ["margin"="0.3","orientation"="47","shape"="egg","fontsize"="16","style"="bold","label"="ContextoAnalitica\n","fontname"="sans-serif"]
+"ContextoCalidad" ["margin"="0.3","orientation"="139","shape"="egg","fontsize"="16","style"="bold","label"="ContextoCalidad\n","fontname"="sans-serif"]
+"ContextoInvestigacion" ["margin"="0.3","orientation"="82","shape"="egg","fontsize"="16","style"="bold","label"="ContextoInvestigacion\n","fontname"="sans-serif"]
+"ContextoRecopilacionDeDatos" ["margin"="0.3","orientation"="251","shape"="egg","fontsize"="16","style"="bold","label"="ContextoRecopilacionDeDatos\n","fontname"="sans-serif"]
+"ContextoAnalitica" -> "ContextoCalidad" ["headlabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">D</td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"ContextoInvestigacion" -> "ContextoAnalitica" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>ACL</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"ContextoRecopilacionDeDatos" -> "ContextoInvestigacion" ["fontsize"="12","style"="bold","label"="Partnership","dir"="none","fontname"="sans-serif"]
+"ContextoRecopilacionDeDatos" -> "ContextoAnalitica" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>ACL</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+}
