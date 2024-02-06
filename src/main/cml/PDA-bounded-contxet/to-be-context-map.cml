@@ -8,9 +8,11 @@ ContextMap {
   contains ContextoInvestigacion
   contains ContextoAnalitica
   contains ContextoCalidad
+  contains ContextoNormalizacion
  	
   ContextoRecopilacionDeDatos [P]<->[P] ContextoInvestigacion
   ContextoAnalitica [ACL] <- [U] ContextoRecopilacionDeDatos
   ContextoAnalitica [ACL] <- [U] ContextoInvestigacion
   ContextoAnalitica [U] -> [D] ContextoCalidad
+  ContextoNormalizacion [P] <-> [P] ContextoRecopilacionDeDatos
 }
