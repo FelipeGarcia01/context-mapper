@@ -20,3 +20,8 @@ BoundedContext ContextoCalidad implements DominioProveerInformacionDeBienesComer
   type = FEATURE  
   domainVisionStatement = "Cumplir con los más altos estándares de calidad, actualidad y precisión de los datos entregados a clientes, para consolidar nuestra posición como el proveedor de información inmobiliaria más confiable del mercado"
 }
+
+BoundedContext ContextoNormalizacion implements DominioProveerInformacionDeBienesComerciales {
+  type = FEATURE  
+  domainVisionStatement = "Normalizar y estandarizar los datos inmobiliarios recopilados, para asegurar su consistencia y comparabilidad, y facilitar su uso en aplicaciones y análisis de nuestros clientes"
+}

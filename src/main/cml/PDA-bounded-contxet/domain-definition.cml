@@ -41,6 +41,10 @@ Domain DominioProveerInformacionDeBienesComerciales {
     type = SUPPORTING_DOMAIN
   }
 
+  Subdomain NormalizacionDeInformacion {
+    type = SUPPORTING_DOMAIN
+  }
+
   Subdomain RecoleccionInspeccionFisica {
     type = CORE_DOMAIN
   }
