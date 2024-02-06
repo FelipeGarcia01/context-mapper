@@ -31,8 +31,8 @@ In order to have language support for editing the CML files (Context Mapper Lang
 ```img```: this directory has eventstorming images. 
 
 ### EventStorming: 
-#### as-is: 
-#### to-be: 
+#### as-is: ![as-is-es.png](./img/ES-AS-IS.jpg)
+#### to-be: ![to-be-es.png](./img/ES-TO-BE.jpg)
 
 
 ### AS_IS and TO_BE: 
