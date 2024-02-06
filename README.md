@@ -17,10 +17,26 @@ In order to have language support for editing the CML files (Context Mapper Lang
    * Can be found easily in your Gitpod's.
    * Or: [Start right now by using our demo repository](https://contextmapper.org/demo/).
 
+
 ## PDA - Context Mapper:
 
+### Project structure
+
+```src/main/PDA-bounded-contxet```: this directory has all needed files to generate context mappers: 
+* **domain-definition.cml** has Domain and sub-domain conteined. whit their visionStatement
+* **bounded-context-definition.cml** has all bounded context definitions with their visionStatement
+* **as-is-context-map.cml** has as-is context map definition on context mapper DSL.
+* **to-be-context-map.cml** has to-be context map definition on context mapper DSL.
+
+```img```: this directory has eventstorming images. 
+
+### EventStorming: 
+#### as-is: 
+#### to-be: 
+
+
 ### AS_IS and TO_BE: 
-context mapper to as_is and to_be state, is generated on ```src/main/cml/PDA-bounded-contxet/src-gen``` directory.
+context mapper to as_is and to_be state, is generated on ```/src-gen``` directory.
 
 #### AS_IS
 ![as-is-context-map_ContextMap.png](./src-gen/as-is-context-map_ContextMap.png)
